@@ -11,6 +11,8 @@ An AI agent built on top of [Spectuner](https://github.com/yqiuu/spectuner), ena
 
 The agent implements three modular skills that together cover the complete spectral analysis workflow:
 
+![The workflow](https://github.com/user-attachments/assets/442ed0cf-7542-446d-8cae-bf9d1e069f38)
+
 ### 1. `spectuner-extract-spectrum` — Data Extraction
 
 Prepares observational data for analysis. Given a natural language command like *"extract the spectrum at RA=16h32m22s.58, DEC=-24°28'32.8'' with a 0.5" circular aperture"*, this skill:
