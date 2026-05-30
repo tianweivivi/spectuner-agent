@@ -1,0 +1,170 @@
+obs_info:
+- fname: /home/vivi/Documents/IRAS16293/workspace_skill/data/54_member.uid___A001_X15a1_X1078.IRAS_16293-2422_B_sci.spw25.cube.I.pbcor.dat
+  beam_info: [0.000135, 0.000135]
+  T_bg: 5.0
+  need_cmb: True
+  noise: 0.2305462314732875
+
+- fname: /home/vivi/Documents/IRAS16293/workspace_skill/data/54_member.uid___A001_X15a1_X1078.IRAS_16293-2422_B_sci.spw27.cube.I.pbcor.dat
+  beam_info: [0.000135, 0.000135]
+  T_bg: 5.0
+  need_cmb: True
+  noise: 0.13004775010999325
+
+- fname: /home/vivi/Documents/IRAS16293/workspace_skill/data/54_member.uid___A001_X15a1_X1078.IRAS_16293-2422_B_sci.spw29.cube.I.pbcor.dat
+  beam_info: [0.000135, 0.000135]
+  T_bg: 5.0
+  need_cmb: True
+  noise: 0.2086747045454489
+
+- fname: /home/vivi/Documents/IRAS16293/workspace_skill/data/54_member.uid___A001_X15a1_X1078.IRAS_16293-2422_B_sci.spw31.cube.I.pbcor.dat
+  beam_info: [0.000135, 0.000135]
+  T_bg: 5.0
+  need_cmb: True
+  noise: 0.2944919704184101
+
+- fname: /home/vivi/Documents/IRAS16293/workspace_skill/data/54_member.uid___A001_X15a1_X1078.IRAS_16293-2422_B_sci.spw45.cube.I.pbcor.dat
+  beam_info: [0.000135, 0.000135]
+  T_bg: 5.0
+  need_cmb: True
+  noise: 0.24404127601717607
+
+- fname: /home/vivi/Documents/IRAS16293/workspace_skill/data/54_member.uid___A001_X15a1_X1078.IRAS_16293-2422_B_sci.spw47.cube.I.pbcor.dat
+  beam_info: [0.000135, 0.000135]
+  T_bg: 5.0
+  need_cmb: True
+  noise: 0.21626532880992766
+
+- fname: /home/vivi/Documents/IRAS16293/workspace_skill/data/54_member.uid___A001_X15a1_X1078.IRAS_16293-2422_B_sci.spw49.cube.I.pbcor.dat
+  beam_info: [0.000135, 0.000135]
+  T_bg: 5.0
+  need_cmb: True
+  noise: 0.21508597393777737
+
+- fname: /home/vivi/Documents/IRAS16293/workspace_skill/data/54_member.uid___A001_X15a1_X1078.IRAS_16293-2422_B_sci.spw51.cube.I.pbcor.dat
+  beam_info: [0.000135, 0.000135]
+  T_bg: 5.0
+  need_cmb: True
+  noise: 0.30342407499206914
+
+- fname: /home/vivi/Documents/IRAS16293/workspace_skill/data/54_member.uid___A001_X15a1_X1078.IRAS_16293-2422_B_sci.spw65.cube.I.pbcor.dat
+  beam_info: [0.000135, 0.000135]
+  T_bg: 5.0
+  need_cmb: True
+  noise: 0.23756610251845997
+
+- fname: /home/vivi/Documents/IRAS16293/workspace_skill/data/54_member.uid___A001_X15a1_X1078.IRAS_16293-2422_B_sci.spw67.cube.I.pbcor.dat
+  beam_info: [0.000135, 0.000135]
+  T_bg: 5.0
+  need_cmb: True
+  noise: 0.28885372371689366
+
+- fname: /home/vivi/Documents/IRAS16293/workspace_skill/data/54_member.uid___A001_X15a1_X1078.IRAS_16293-2422_B_sci.spw69.cube.I.pbcor.dat
+  beam_info: [0.000135, 0.000135]
+  T_bg: 5.0
+  need_cmb: True
+  noise: 0.22050363710929627
+
+- fname: /home/vivi/Documents/IRAS16293/workspace_skill/data/54_member.uid___A001_X15a1_X1078.IRAS_16293-2422_B_sci.spw71.cube.I.pbcor.dat
+  beam_info: [0.000135, 0.000135]
+  T_bg: 5.0
+  need_cmb: True
+  noise: 0.3560321240964989
+
+- fname: /home/vivi/Documents/IRAS16293/workspace_skill/data/54_member.uid___A001_X15a1_X1078.IRAS_16293-2422_B_sci.spw85.cube.I.pbcor.dat
+  beam_info: [0.000135, 0.000135]
+  T_bg: 5.0
+  need_cmb: True
+  noise: 0.1431328843754112
+
+- fname: /home/vivi/Documents/IRAS16293/workspace_skill/data/54_member.uid___A001_X15a1_X1078.IRAS_16293-2422_B_sci.spw87.cube.I.pbcor.dat
+  beam_info: [0.000135, 0.000135]
+  T_bg: 5.0
+  need_cmb: True
+  noise: 0.17943139738695935
+
+- fname: /home/vivi/Documents/IRAS16293/workspace_skill/data/54_member.uid___A001_X15a1_X1078.IRAS_16293-2422_B_sci.spw89.cube.I.pbcor.dat
+  beam_info: [0.000135, 0.000135]
+  T_bg: 5.0
+  need_cmb: True
+  noise: 0.21575753810188242
+
+- fname: /home/vivi/Documents/IRAS16293/workspace_skill/data/54_member.uid___A001_X15a1_X1078.IRAS_16293-2422_B_sci.spw91.cube.I.pbcor.dat
+  beam_info: [0.000135, 0.000135]
+  T_bg: 5.0
+  need_cmb: True
+  noise: 0.23943986388608002
+
+- fname: /home/vivi/Documents/IRAS16293/workspace_skill/data/54_member.uid___A001_X15a1_X1078.IRAS_16293-2422_B_sci.spw105.cube.I.pbcor.dat
+  beam_info: [0.000135, 0.000135]
+  T_bg: 5.0
+  need_cmb: True
+  noise: 0.18563883606235776
+
+- fname: /home/vivi/Documents/IRAS16293/workspace_skill/data/54_member.uid___A001_X15a1_X1078.IRAS_16293-2422_B_sci.spw107.cube.I.pbcor.dat
+  beam_info: [0.000135, 0.000135]
+  T_bg: 5.0
+  need_cmb: True
+  noise: 0.22861802115450153
+
+- fname: /home/vivi/Documents/IRAS16293/workspace_skill/data/54_member.uid___A001_X15a1_X1078.IRAS_16293-2422_B_sci.spw109.cube.I.pbcor.dat
+  beam_info: [0.000135, 0.000135]
+  T_bg: 5.0
+  need_cmb: True
+  noise: 0.2168286282762702
+
+- fname: /home/vivi/Documents/IRAS16293/workspace_skill/data/54_member.uid___A001_X15a1_X1078.IRAS_16293-2422_B_sci.spw111.cube.I.pbcor.dat
+  beam_info: [0.000135, 0.000135]
+  T_bg: 5.0
+  need_cmb: True
+  noise: 0.15422122694935195
+
+
+fname_base: null
+sl_model:
+  fname_db: /home/vivi/software/XCLASS__version_1.4.2/Database/cdms_sqlite_origin.db
+  trunc: 5.
+  eps_grid: 1.e-3
+  params:
+    theta:
+      is_shared: True
+      is_log: True
+    T_ex:
+      is_shared: False
+      is_log: False
+    N_tot:
+      is_shared: False
+      is_log: True
+    delta_v:
+      is_shared: True
+      is_log: True
+    v_LSR:
+      is_shared: True
+      is_log: False
+peak_manager:
+  noise_factor: 2
+  rel_height: 0.25
+  freqs_exclude: null
+opt:
+  optimizer: "pso"
+  bounds:
+    theta: [0.7, 2.3]
+    T_ex: [10., 400.]
+    N_tot: [12., 20.]
+    delta_v: [-0.5, 0.5]
+    v_LSR: [2.3, 3.]
+  n_process: 2
+  n_trail: 3
+  n_cycle_min: 100
+  n_cycle_max: 1000
+  n_cycle_dim: 5
+  n_stop: 15
+  tol_stop: 1.e-5
+  kwargs_opt:
+    nswarm: 32
+  save_history: True
+  save_all: True
+  criteria:
+    score: 2.7
+    t3_score: 0.8
+  blob: False
