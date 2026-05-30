@@ -1,0 +1,26 @@
+{
+  "skill_name": "spectuner-plot-results",
+  "evals": [
+    {
+      "id": 1,
+      "eval_name": "peakplot-molecule-peaks",
+      "prompt": "我用spectuner拟合了某个位置的光谱，拟合结果保存在 results/identify_results.h5 中，config文件在 config/ 目录下（包含config.yml、species.yml、modify.yml）。请帮我写一段Python代码，用PeakPlot展示CH3OH分子（key=0）的每一条拟合出的peak，每个peak一个subplot。在每个subplot上标注该跃迁对应的上能级能量E_u（需要从sl_db中查询）。同时要询问我是否需要给出光深tau的值，如果需要的话，也要在subplot上标注tau的数值。注意：不需要真正运行这段代码，只要生成正确的代码即可。",
+      "expected_output": "Python code that loads IdentResult, extracts molecule key=0, creates a PeakPlot centered on each identified peak frequency, plots the observed spectrum, draws vertical lines for each peak, queries sl_db for E_up values, and includes logic to optionally display tau values. Uses spectuner PeakPlot, load_previous_ident_result, load_config, and ParameterManager.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "eval_name": "spectralplot-full-overview",
+      "prompt": "我已经用spectuner完成了单条光谱的拟合和谱线证认，结果文件在 results/identify_results.h5，config在 config/ 目录。现在需要用SpectralPlot画出所有光谱窗口的完整概览，只标出被拟合的谱线（matched peaks和blended peaks），false positives可以不标。设置合适的y轴范围。注意：不需要真正运行这段代码，只要生成正确的代码即可。",
+      "expected_output": "Python code that loads config and IdentResult, creates SpectralPlot.from_config(), overlays the fitted spectrum with plot_ident_result(), sets y-limits based on noise level, and saves the figure. Should use color='r' for matched, color_blen='orange' for blended, and color_fp='none' to hide false positives.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "eval_name": "pixel-param-maps",
+      "prompt": "我已经完成了pixel-by-pixel的cube拟合，观测数据cube在 data/cube_obs.h5，拟合结果在 results/cube_fit.h5。请帮我写一段Python代码，自动将hdf拟合结果转成fits文件，然后画出每个拟合分子对应的5个参数（theta, T_ex, N_tot, delta_v, v_offset）的二维分布图。其中N_tot和theta使用对数坐标（LogNorm），colorbar标签使用科学计数法标注。注意：不需要真正运行这段代码，只要生成正确的代码即可。",
+      "expected_output": "Python code that uses HDFCubeManager.pred_data_to_fits() to convert results, then loads each parameter FITS file and creates a 2x3 subplot figure with imshow. N_tot and theta use LogNorm with scientific notation on colorbar. Other parameters use linear scale.",
+      "files": []
+    }
+  ]
+}
