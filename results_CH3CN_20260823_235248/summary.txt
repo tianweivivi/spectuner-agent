@@ -1,0 +1,53 @@
+# Spectuner CH3CN Identification Summary
+# Generated: 20260823_235519
+Source: IRAS 16293-2422 B
+Output: /Users/sdkkk/Desktop/spectra_skills/results_CH3CN_20260823_235248
+
+## Spectral coverage
+  Window  1: 232046.413 - 232483.580 MHz
+  Window  2: 232483.941 - 232921.109 MHz
+  Window  3: 232921.469 - 233358.515 MHz
+  Window  4: 233358.998 - 233796.165 MHz
+  Window  5: 233796.534 - 234233.579 MHz
+  Window  6: 234234.062 - 234671.107 MHz
+  Window  7: 234671.590 - 235108.757 MHz
+  Window  8: 235109.119 - 235546.163 MHz
+  Window  9: 235546.654 - 235983.821 MHz
+  Window 10: 235984.183 - 236421.228 MHz
+  Window 11: 236421.711 - 236858.756 MHz
+  Window 12: 236859.239 - 237296.406 MHz
+  Window 13: 237296.775 - 237733.941 MHz
+  Window 14: 237734.303 - 238171.470 MHz
+  Window 15: 238171.831 - 238608.998 MHz
+  Window 16: 238609.359 - 239046.526 MHz
+  Window 17: 239046.894 - 239483.939 MHz
+  Window 18: 239484.423 - 239921.589 MHz
+  Window 19: 239921.951 - 240358.995 MHz
+  Window 20: 240359.479 - 240796.646 MHz
+  Total: 8.742 GHz
+
+## Fit performance
+  Phase 1: 0m 26.3s
+  Phase 2: 0m 19.3s
+  Total:   0m 45.7s
+
+## Single-phase results
+
+name                          score lines  fp   theta    T_ex        N_tot      dv    voff status
+---------------------------------------------------------------------------------------------------------
+CH3CN;v8=1;#1                 10.95    14   0   2.022   199.8    2.815e+15    0.86    2.71   PASS
+CH3CN;v=0;                     7.47    10   0   0.115   372.4    1.415e+16    1.28    2.61   PASS
+C-13-H3CN;v=0;                 4.58     7   0   0.581   311.1    5.550e+14    0.91    2.71   PASS
+CH3C-13-N;v=0;                 3.62     4   0   4.051    96.8    9.725e+13    0.84    2.75   PASS
+CH3C-13-N;v8=1;                1.15     2   2   1.136   455.6    9.477e+14    1.84   -4.72   FAIL
+CH2DCN;v=0;                    0.99     1   0   3.801   471.3    3.583e+18    1.04   -3.15   FAIL
+CH3CN;v8=2;                    0.68     1   2   0.571   281.7    4.381e+15    0.93   -8.71   FAIL
+CH3CN-15;v8=1;                -0.09     4   8   1.752   499.9    8.635e+14    1.05    3.98   FAIL
+C-13-H3C-13-N;v=0;            -0.16     1   2   4.947    36.6    2.115e+14    1.27    3.40   FAIL
+
+## Combine-phase confirmed
+
+  CH3CN;v=0;                score=7.47 lines=10 T_ex=372.4K N_tot=1.42e+16
+  CH3CN;v8=1;#1             score=10.95 lines=14 T_ex=199.8K N_tot=2.82e+15
+  C-13-H3CN;v=0;            score=4.58 lines=7 T_ex=311.1K N_tot=5.55e+14
+  CH3C-13-N;v=0;            score=3.62 lines=4 T_ex=96.8K N_tot=9.73e+13
