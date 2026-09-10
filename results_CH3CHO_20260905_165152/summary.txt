@@ -1,0 +1,55 @@
+# Spectuner CH3CHO Identification Summary
+# Generated: 20260905_165523
+Source: IRAS 16293-2422 B
+Output: /Users/sdkkk/Desktop/spectra_skills/results_CH3CHO_20260905_165152
+
+## Spectral coverage
+  Window  1: 232046.413 - 232483.580 MHz
+  Window  2: 232483.941 - 232921.109 MHz
+  Window  3: 232921.469 - 233358.515 MHz
+  Window  4: 233358.998 - 233796.165 MHz
+  Window  5: 233796.534 - 234233.579 MHz
+  Window  6: 234234.062 - 234671.107 MHz
+  Window  7: 234671.590 - 235108.757 MHz
+  Window  8: 235109.119 - 235546.163 MHz
+  Window  9: 235546.654 - 235983.821 MHz
+  Window 10: 235984.183 - 236421.228 MHz
+  Window 11: 236421.711 - 236858.756 MHz
+  Window 12: 236859.239 - 237296.406 MHz
+  Window 13: 237296.775 - 237733.941 MHz
+  Window 14: 237734.303 - 238171.470 MHz
+  Window 15: 238171.831 - 238608.998 MHz
+  Window 16: 238609.359 - 239046.526 MHz
+  Window 17: 239046.894 - 239483.939 MHz
+  Window 18: 239484.423 - 239921.589 MHz
+  Window 19: 239921.951 - 240358.995 MHz
+  Window 20: 240359.479 - 240796.646 MHz
+  Total: 8.742 GHz
+
+## Fit performance
+  Phase 1: 1m 12.7s
+  Phase 2: 0m 25.7s
+  Total:   1m 38.4s
+
+## Single-phase results
+
+name                          score lines  fp   theta    T_ex        N_tot      dv    voff status
+---------------------------------------------------------------------------------------------------------
+CH3CHO;v=0;                   35.57    48   0   0.237    76.7    1.079e+17    0.71    2.70   PASS
+CH2DCHO;v=0;                  21.68    29   1   0.209   124.5    1.065e+12    0.85    2.69   PASS
+CH3CHO;v15=1;                 11.61    15   2   4.829   405.2    5.577e+16    1.10    2.66   PASS
+CH3CDO;v=0;                    7.33     9   0   0.771    53.1    2.409e+15    0.82    2.76   PASS
+CH3CHO;v15=2;                  4.41    11   4   1.957   179.0    3.549e+16    1.09    2.87   PASS
+CH3C-13-HO;v=0;                3.04     4   0   0.244    30.7    4.229e+12    0.79    2.62   PASS
+C-13-H3CHO;v=0;                2.96     4   0   3.899    28.2    1.251e+12    0.75    2.71   PASS
+CH3CHO;v15=2-1;                0.99     1   0   2.005   339.2    6.001e+17    0.80   -7.55   FAIL
+CH3CDO;v15=1;                  0.94     4   2   4.745   133.2    1.213e+16    2.18    2.18   FAIL
+CH3CDO;v15=1-0;               -0.09     3   2   4.592   254.1    1.585e+18    6.67   -7.36   FAIL
+CH3C-13-HO;v15=1;             -0.10     3   3   1.342    80.6    3.474e+12    1.18    2.96   FAIL
+
+## Combine-phase confirmed
+
+  CH3CHO;v=0;               score=35.41 lines=48 T_ex=76.7K N_tot=1.08e+17
+  CH2DCHO;v=0;              score=21.84 lines=29 T_ex=121.9K N_tot=1.33e+12
+  CH3CHO;v15=1;             score=11.61 lines=15 T_ex=405.2K N_tot=5.58e+16
+  CH3CDO;v=0;               score=7.33 lines=9 T_ex=53.1K N_tot=2.41e+15
