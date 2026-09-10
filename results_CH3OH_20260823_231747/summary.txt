@@ -1,0 +1,70 @@
+# Spectuner CH3OH Identification Summary
+# Generated: 20260823_233219
+Source: IRAS 16293-2422 B
+Output directory: /Users/sdkkk/Desktop/spectra_skills/results_CH3OH_20260823_231747
+
+## Spectral coverage
+  Window  1: 232046.400 - 232483.600 MHz (0.437 GHz)
+  Window  2: 232483.900 - 232921.100 MHz (0.437 GHz)
+  Window  3: 232921.500 - 233358.500 MHz (0.437 GHz)
+  Window  4: 233359.000 - 233796.200 MHz (0.437 GHz)
+  Window  5: 233796.500 - 234233.600 MHz (0.437 GHz)
+  Window  6: 234234.100 - 234671.100 MHz (0.437 GHz)
+  Window  7: 234671.600 - 235108.800 MHz (0.437 GHz)
+  Window  8: 235109.100 - 235546.200 MHz (0.437 GHz)
+  Window  9: 235546.700 - 235983.800 MHz (0.437 GHz)
+  Window 10: 235984.200 - 236421.200 MHz (0.437 GHz)
+  Window 11: 236421.700 - 236858.800 MHz (0.437 GHz)
+  Window 12: 236859.200 - 237296.400 MHz (0.437 GHz)
+  Window 13: 237296.800 - 237733.900 MHz (0.437 GHz)
+  Window 14: 237734.300 - 238171.500 MHz (0.437 GHz)
+  Window 15: 238171.800 - 238609.000 MHz (0.437 GHz)
+  Window 16: 238609.400 - 239046.500 MHz (0.437 GHz)
+  Window 17: 239046.900 - 239483.900 MHz (0.437 GHz)
+  Window 18: 239484.400 - 239921.600 MHz (0.437 GHz)
+  Window 19: 239922.000 - 240359.000 MHz (0.437 GHz)
+  Window 20: 240359.500 - 240796.600 MHz (0.437 GHz)
+  Total: 8.742 GHz (232.0 - 240.8 GHz, ALMA Band 6)
+
+## Fit performance
+  Phase 1 (Individual): 1 min 24 s
+  Phase 2 (Combine):    1 min 58 s
+  Total duration:       3 min 23 s
+
+## CH3OH Identification Result
+  *** CH3OH (methanol) IS DETECTED in this data ***
+
+  Species passing identification threshold (score >= 2.7): 6
+  Species failing: 6
+
+## Single-phase results (all CH3OH species/isotopologues)
+
+name                          score lines  fp   theta    T_ex        N_tot delta_v   v_off status
+---------------------------------------------------------------------------------------------------------
+CHD2OH;v=0;                   14.51    25   4   0.086   147.5    2.088e+14    0.72    2.66   PASS
+C-13-H3OH;v=0;                 9.56    16   2   4.777   372.3    5.222e+16    1.32    2.66   PASS
+C-13-H3OH;v12=1;               8.64    12   1   1.211   171.1    5.394e+16    0.98    2.66   PASS
+CH3OH;v=0;                     7.02    14   3   2.830   282.3    9.912e+16    1.40    2.54   PASS
+CH3OH;v12=1;                   5.42    10   0   0.263   119.9    7.465e+18    1.15    2.64   PASS
+CH2DOH;v=0;                    4.05    13   3   3.966   240.0    5.295e+16    1.57    2.77   PASS
+CH3OH;v12=2;                   2.58     4   0   0.956   323.4    1.671e+17    0.92    2.64   FAIL
+CH3OH;v12=1-0;                 0.99     1   0   1.657   384.9    5.251e+18    1.16    3.80   FAIL
+CH3O-18-H;v12=2;               0.99     1   0   0.475   455.3    3.397e+18    1.04    6.76   FAIL
+CH3O-18-H;v12=1;               0.96     1   0   2.864   117.7    4.523e+18    2.38    4.28   FAIL
+CH3O-18-H;v=0;                 0.90     1   1   4.128   201.0    6.299e+16    1.01   -7.29   FAIL
+CH3OH;v12=2-1;                 0.45     1   1   4.987   232.0    1.000e+19    1.09    5.58   FAIL
+
+## Combine-phase results (confirmed species)
+
+  CHD2OH;v=0;               score=14.51 lines=25 T_ex=147.5 K  N_tot=2.09e+14 cm^-2
+  C-13-H3OH;v=0;            score=9.56 lines=16 T_ex=372.3 K  N_tot=5.22e+16 cm^-2
+  C-13-H3OH;v12=1;          score=8.64 lines=12 T_ex=171.1 K  N_tot=5.39e+16 cm^-2
+
+## Key CH3OH;v=0; parameters (from single phase)
+  theta    = 2.830 arcsec
+  T_ex     = 282.3 K
+  N_tot    = 9.912e+16 cm^-2
+  delta_v  = 1.40 km/s
+  v_offset = 2.54 km/s
+  score    = 7.02
+  lines    = 14 true positives
