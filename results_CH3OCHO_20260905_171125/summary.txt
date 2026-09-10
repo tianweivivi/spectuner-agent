@@ -1,0 +1,45 @@
+# Spectuner CH3OCHO Identification Summary
+# Generated: 20260905_171443
+Source: IRAS 16293-2422 B
+Output: /Users/sdkkk/Desktop/spectra_skills/results_CH3OCHO_20260905_171125
+
+## Spectral coverage
+  Window  1: 232046.413 - 232483.580 MHz
+  Window  2: 232483.941 - 232921.109 MHz
+  Window  3: 232921.469 - 233358.515 MHz
+  Window  4: 233358.998 - 233796.165 MHz
+  Window  5: 233796.534 - 234233.579 MHz
+  Window  6: 234234.062 - 234671.107 MHz
+  Window  7: 234671.590 - 235108.757 MHz
+  Window  8: 235109.119 - 235546.163 MHz
+  Window  9: 235546.654 - 235983.821 MHz
+  Window 10: 235984.183 - 236421.228 MHz
+  Window 11: 236421.711 - 236858.756 MHz
+  Window 12: 236859.239 - 237296.406 MHz
+  Window 13: 237296.775 - 237733.941 MHz
+  Window 14: 237734.303 - 238171.470 MHz
+  Window 15: 238171.831 - 238608.998 MHz
+  Window 16: 238609.359 - 239046.526 MHz
+  Window 17: 239046.894 - 239483.939 MHz
+  Window 18: 239484.423 - 239921.589 MHz
+  Window 19: 239921.951 - 240358.995 MHz
+  Window 20: 240359.479 - 240796.646 MHz
+  Total: 8.742 GHz
+
+## Fit performance
+  Phase 1: 1m 39.0s
+  Phase 2: 0m 54.7s
+  Total:   2m 33.7s
+
+## Single-phase results
+
+name                          score lines  fp   theta    T_ex        N_tot      dv    voff status
+---------------------------------------------------------------------------------------------------------
+CH3OCHO;v=0;                  39.34    57   4   0.315   467.2    2.186e+17    1.05    2.70   PASS
+CH3OCHO;v18=1;                27.94    35   1   0.096   229.2    5.213e+17    0.81    2.71   PASS
+CH3OC-13-HO;v=0;               0.26     1   3   1.101   312.1    3.193e+16    1.90   -5.18   FAIL
+
+## Combine-phase confirmed
+
+  CH3OCHO;v=0;              score=39.56 lines=60 T_ex=467.2K N_tot=2.19e+17
+  CH3OCHO;v18=1;            score=27.82 lines=35 T_ex=229.2K N_tot=5.21e+17
